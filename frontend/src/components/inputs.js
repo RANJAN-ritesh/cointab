@@ -77,7 +77,7 @@ export const Inputs = ()=>{
             <button onClick={handleAmount}>Calculate Amount</button>
         </div>
             <div className="amtDiv">
-                <p style={{fontSize:"1rem",fontWeight:"550"}}><span style={{fontSize:"1.2rem",fontWeight:"550",color:"blue",marginLeft:"1rem",marginRight:"1rem"}}>Total Amount :</span>{amt}</p>
+                <p style={{fontSize:"1rem",fontWeight:"550"}}><span style={{fontSize:"1.2rem",fontWeight:"550",color:"blue",marginLeft:"1rem",marginRight:"1rem"}}>Total Amount :</span>Rs. {amt}</p>
             </div>
         </div>
     )
