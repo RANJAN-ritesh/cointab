@@ -1,0 +1,47 @@
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    border:2px solid midnightblue;
+    padding: 2rem;
+    background-color: aqua;
+}
+.inputDiv>input{
+    width: 15rem;
+    margin-top: 0.2rem;
+    padding: 00.2rem 0.6rem;
+}
+.inputDiv>select{
+    width: 10rem;
+    margin-top: 0.2rem;
+}
+.inputDiv>button{
+    width: 12rem;
+    margin-top: 4rem;
+    margin-left: 16%;
+    font-size: 1.2rem;
+    font-weight: 550;
+    background-color:coral;
+    border: 1px solid coral;
+    border-radius: 2rem;
+    padding: 0.5rem 2rem;
+}
+.inputDiv>button:hover{
+    background-color: gold;
+    cursor: pointer;
+}
+.inputDiv>label{
+    margin-top: 1.2rem;
+}
+.amtDiv{
+    border: 2px solid midnightblue;
+    background-color: rgb(23, 187, 23);
+    width: 20rem;
+    padding: 2rem;
+    margin-top: 2.5%;
+}
+.parentDiv{
+    margin-left: 35%;
+    margin-top: 5%;
+    font-family: sans-serif;
+}
